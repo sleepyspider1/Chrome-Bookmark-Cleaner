@@ -1,7 +1,10 @@
-# Chrome-Bookmark-Cleaner
+Refs:
 
-This is a Qt C++ application. You load your exported .html bookmarks file into this application and do some processing on it. Then you go and delete all your bookmarks from Chrome and reimport them using the processed bookmarks file from this app.
+-   <http://doc.qt.io/qt-5/cmake-manual.html>
+-   <https://github.com/jasondegraw/Qt-CMake-HelloWorld>
 
-The two primary features are Removes duplicate bookmarks. Removes duplicate folders.
+-   Windows
 
-It's surprising to me that, of all the extensions and apps I've tried, how bad they suck at solving this simple problem. This will hopefully rectify this.
+    +   <http://whudoc.qiniudn.com/2016/qt-opensource-windows-x86-msvc2015_64-5.6.0.exe>
+    +   in CMakeLists.txt, `set( CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "C:/Qt/VS2015x64/Qt5.6.0/5.6/msvc2015_64" )`
+    +   add `C:\Qt\VS2015x64\Qt5.6.0\5.6\msvc2015_64\bin` to %PATH%
